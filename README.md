@@ -59,6 +59,13 @@ python code_review.py --file "<path to file to review>"
 
 For detailed usage and additional commands, refer to the [Documentation](#documentation).
 
+## Currently supported languages
+
+- Python
+- TypeScript
+- C++
+- Kotlin
+
 ## Documentation
 
 More extensive documentation is available in the `/docs` directory. It includes comprehensive guides on:
