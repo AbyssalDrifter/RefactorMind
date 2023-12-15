@@ -2,6 +2,8 @@
   <img src="images/image.png" alt="Logo" height="500">
 </p>
 
+<p align="center">Man cannot remake himself without suffering, for he is both the marble and the sculptor. ~ Alexis Carrel</p>
+
 # RefactorMind - Your AI-Powered Code Refinement Tool
 
 ![Build Status](https://img.shields.io/badge/build-passing-brightgreen)
@@ -26,16 +28,23 @@ Welcome to RefactorMind, the next-generation of code review and self-refactoring
 
 Before you can run RefactorMind, make sure you have the following installed:
 - [Git](https://git-scm.com/)
-- [Python](https://www.python.org/)
+- [Python](https://www.python.org/) (Tested with version 3.12.1)
 
 ### Installation
+
+It is recommended to create a Python virtual environment and install dependencies into it using:
+
+```bash
+python -m venv .venv
+```
 
 Clone the RefactorMind repository and install its dependencies:
 
 ```bash
-git clone https://github.com/your-username/RefactorMind.git
+git clone https://github.com/AbyssalDrifter/RefactorMind.git
 cd RefactorMind
-npm install
+<optionally install virtual environment here and activate it>
+pip install -r requirements.txt
 ```
 
 ### Usage
@@ -45,7 +54,7 @@ To start using RefactorMind within your project, follow these steps:
 ```bash
 # Run the RefactorMind in your project directory
 cd path-to-your-project
-RefactorMind
+python code_review.py --file "<path to file to review>"
 ```
 
 For detailed usage and additional commands, refer to the [Documentation](#documentation).
@@ -61,13 +70,13 @@ More extensive documentation is available in the `/docs` directory. It includes 
 
 ## Contributing
 
-We welcome and appreciate new contributions. If you're a developer looking to help but not sure where to start, check out the [issues](https://github.com/your-username/RefactorMind/issues) labeled 'help wanted'.
+We welcome and appreciate new contributions. If you're a developer looking to help but not sure where to start, check out the [issues](https://github.com/AbyssalDrifter/RefactorMind/issues) labeled 'help wanted'.
 
 If you've decided to contribute, please follow the [contribution guidelines](CONTRIBUTING.md).
 
 ## Feedback
 
-Your feedback is crucial and will help us to improve RefactorMind. Create an [issue](https://github.com/your-username/RefactorMind/issues) on GitHub for feature requests, bug reports, or general questions.
+Your feedback is crucial and will help us to improve RefactorMind. Create an [issue](https://github.com/AbyssalDrifter/RefactorMind/issues) on GitHub for feature requests, bug reports, or general questions.
 
 ## License
 
