@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="images/image.png" alt="Logo" height="500">
+</p>
+
 # RefactorMind - Your AI-Powered Code Refinement Tool
 
 ![Build Status](https://img.shields.io/badge/build-passing-brightgreen)
